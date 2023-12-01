@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner:wght@500&family=Josefin+Sans:ital,wght@0,100;0,300;1,300&family=Kablammo&family=Montserrat:wght@300;500&family=Nunito:ital,wght@0,400;1,500&family=REM:wght@300&family=Tektur:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.section40{
+    height: 100vh;
+    width: 40%;
+}
+.section40 h1{
+    font-size: 2rem;
+    font-weight:750;
+    margin: 30px;
+}
+.section40 .center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 31%;
+;
+}
+.section40 .center h3{
+    font-size: 2.4rem;
+    color: #ff7a00;
+}
+.section40 .center h2{
+    font-size: 4rem;
+    margin: -10px;
+}
+a{
+    height: 3rem;
+    width: 10rem
+}
+.section40 .center .buttons{
+    margin-top: 20px;
+}
+.section40 .center .buttons a{
+    padding: 8px 25px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 5px;
+    background-color: #ff7a00;
+    border-radius: 40px;
+    outline: none;
+    background-color: #ff7a00;
+    border:2px solid #FF7A00;
+    transition: .4s ease;
+    text-decoration: none;
+    color: #FFf;
+}
+.section40 .center .buttons a:hover{
+    border: 2px solid #FF7A00;
+    background-color: #FFf;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #FF7A00;
+}
+.section60 ul{
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+.section60 ul li{
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+    font-size: 1rem;
+    font-weight: 550;
+    cursor: pointer;
+    color:#000;
+    
+}
+.section60 ul li::after{
+    content: "";
+    position:absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #FF7A00;
+    bottom: -3px;
+    border-radius: 40px;
+    transform: scale(0);
+    transition: .4s ease;
+}
+.section60 ul li:hover::after{
+    transform: scaleX(1);
+}
+
+.section60.img{
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.section60.img img{
+    height: 300px;
+}
